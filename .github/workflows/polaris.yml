@@ -55,4 +55,5 @@ jobs:
           polaris_reports_sarif_create: true
           polaris_upload_sarif_report: true
           github_token: ${{ secrets.GITHUBTOKEN }}
+          
           include_diagnostics: true
