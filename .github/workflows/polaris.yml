@@ -51,8 +51,8 @@ jobs:
           polaris_application_name: 'test_ado'
           polaris_project_name: 'test_ado'
           polaris_assessment_types: "SCA"
-          polaris_branch_name: "maintest"
+          polaris_branch_name: "main"
           polaris_reports_sarif_create: true
-          polaris_upload_sarif_report: true
+          # polaris_upload_sarif_report: true
           github_token: ${{ secrets.GITHUBTOKEN }}
           include_diagnostics: true
