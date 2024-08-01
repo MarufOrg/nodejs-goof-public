@@ -42,14 +42,14 @@ jobs:
 
           # include_diagnostics: true
 
-          # POLARIS_ACCESS_TOKEN: ${{ secrets.POLARIS_ACCESS_TOKEN_E2E }}
-          # POLARIS_APPLICATION_NAME: 'E2E-Integration-App'
-          # POLARIS_PROJECT_NAME: 'TestProject'
+          POLARIS_ACCESS_TOKEN: ${{ secrets.POLARIS_ACCESS_TOKEN_E2E }}
+          POLARIS_APPLICATION_NAME: 'E2E-Integration-App'
+          POLARIS_PROJECT_NAME: 'TestProject'
         
           polaris_server_url: ${{ vars.POLARIS_SERVER_URL }}
-          polaris_access_token: ${{ secrets.POLARIS_ACCESS_TOKEN }}
-          polaris_application_name: 'test_ado'
-          polaris_project_name: 'test_ado'
+          # polaris_access_token: ${{ secrets.POLARIS_ACCESS_TOKEN }}
+          # polaris_application_name: 'test_ado'
+          # polaris_project_name: 'test_ado'
           polaris_assessment_types: "SCA"
           polaris_branch_name: "main"
           polaris_reports_sarif_create: true
