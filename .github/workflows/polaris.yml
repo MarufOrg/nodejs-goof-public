@@ -29,7 +29,7 @@ jobs:
       - name: Polaris Scan
         # if: ${{ github.event_name != 'pull_request' }}
         # Use the action defined in this repository
-        uses: synopsys-sig/synopsys-action@SIGINT-2079
+        uses: synopsys-sig/synopsys-action@SIGINT-2056
         with:
           srm_url: ${{ vars.SRM_URL }}
           srm_apikey: ${{ secrets.SRM_API_KEY }}
