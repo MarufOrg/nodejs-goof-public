@@ -35,7 +35,7 @@ jobs:
           srm_apikey: ${{ secrets.SRM_API_KEY }}
           srm_assessment_types: "SCA,SAST"
           srm_project_name: "test_action"
-          srm_project_id: 12
+          # srm_project_id: 12
           srm_branch_name: "test"
           srm_branch_parent: "main"
           
