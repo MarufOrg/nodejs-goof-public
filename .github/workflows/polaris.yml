@@ -50,7 +50,7 @@ jobs:
 
           blackduck_search_depth: "1"
           # blackduck_args: "/home/maruf/SynopsysTestConfig/application.properties"
-          # blackduck_config_path: "--detect.diagnostic=true"
+          blackduck_config_path: "--detect.diagnostic=true"
 
           
           include_diagnostics: true
