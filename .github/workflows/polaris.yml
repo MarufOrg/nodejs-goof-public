@@ -36,8 +36,8 @@ jobs:
           srm_assessment_types: "SCA,SAST"
           # srm_project_name: "test_action"
           # srm_project_id: 12
-          srm_branch_name: "test"
-          srm_branch_parent: "main"
+          # srm_branch_name: "test"
+          # srm_branch_parent: "main"
           
           # blackduck_execution_path: "/home/maruf/.synopsys/bridge/tools/synopsys-detect/9.8.0/synopsys-detect-9.8.0.jar"
           # coverity_execution_path: "/home/maruf/.synopsys/bridge/tools/cov-thin-client/2023.9.2/bin/coverity"
