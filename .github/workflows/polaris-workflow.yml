@@ -29,10 +29,10 @@ jobs:
       BRIDGE_POLARIS_SERVERURL: ${{ vars.POLARIS_URL }}
       BRIDGE_POLARIS_ACCESSTOKEN: ${{ secrets.POLARIS_ACCESS_TOKEN }}
       ### ASSESSMENT TYPES
-      BRIDGE_POLARIS_ASSESSMENT_TYPES: SAST,SCA
+      BRIDGE_POLARIS_ASSESSMENT_TYPES: SCA,SAST
       ### SCANNING: Configuration fields
-      BRIDGE_POLARIS_APPLICATION_NAME: ${{ github.event.repository.name }}
-      BRIDGE_POLARIS_PROJECT_NAME: ${{ github.event.repository.name }}
+      BRIDGE_POLARIS_APPLICATION_NAME: 'node-goat'
+      BRIDGE_POLARIS_PROJECT_NAME: 'node-goat'
       BRIDGE_POLARIS_BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
       ### GitHub repository information
       BRIDGE_GITHUB_REPOSITORY_OWNER_NAME: ${{ github.repository_owner }}
