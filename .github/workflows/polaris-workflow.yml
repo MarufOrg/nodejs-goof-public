@@ -1,5 +1,5 @@
 # Quickstart: Bridge CLI with polaris:
-#     https://documentation.blackduck.com/bundle/bridge/page/documentation/t_github-polaris-cli-quickstart.html
+#     https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickstart-polaris-bridge-cli-in-a-github-workflow.html
 name: Polaris Bridge CLI Scan
 on:
   push:
@@ -51,7 +51,7 @@ jobs:
       BRIDGE_DOWNLOAD_URL: https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries/bridge-cli-bundle/latest
     steps:
       - name: Checkout Source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download & Setup Bridge CLI on Windows
         if: runner.os == 'Windows'
